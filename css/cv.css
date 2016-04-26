@@ -1,0 +1,21 @@
+.cvContent{
+	padding: 25px 20px;
+	float:right;
+}
+@media (max-width: 900px){
+	.cvContent{
+		float:left;
+	}
+}
+.cvTitle{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.cvChText{
+	margin-top: 5px;
+}
+.cvEnText{
+	margin-top: 20px;
+	color:#aaa;
+}

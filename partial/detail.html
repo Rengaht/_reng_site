@@ -1,0 +1,53 @@
+
+
+<div class="col-md-12 pull-right hideToScroll"
+	 when-visible="animateElementIn"
+	 when-not-visible="animateElementOut">
+	<div class="detailTime preText tagColor" ng-class="textTagClass">{{project.time}}</div>
+	<div class="detailTitle" ng-class="textClass">{{project.title}}</div>
+	<div class="detailDescript preText" ng-class="textClass">{{project.descript}}</div>
+
+</div>
+
+<div ng-repeat="item in project.sub_contents"
+	 ng-switch="item.type"
+	 class="subContent hideToScroll"
+	 when-visible="animateElementIn"
+	 when-not-visible="animateElementOut"
+	 ng-class="textClass">
+
+	<div ng-switch-when="text">
+		<div class="col-md-12">
+			<div class="subText preText">{{item.text}}</div>
+		</div>
+	</div>
+
+	<div ng-switch-when="image" class="col-md-12">	
+		<img class="subImage" ng-src="{{item.image_src}}"/>
+	</div>
+
+	<div ng-switch-when="image-text">
+		<div class="col-md-6" style="padding-right: 0;">
+			<img class="subImage" ng-src="{{item.image_src}}"/></div>
+		<div class="col-md-6">
+			<div class="subText preText sideText">{{item.text}}</div>				
+		</div>
+	</div>
+	<div ng-switch-when="image-image">
+		<div class="col-md-6" style="padding-right: 0;">
+			<img class="subImage" ng-src="{{item.image_src_1}}"/></div>
+		<div class="col-md-6" style="padding-left: 0;">
+			<img class="subImage" ng-src="{{item.image_src_2}}"/></div>			
+	</div>
+	<div ng-switch-when="video" class="col-md-12">
+		<div class="subVideo">
+			<iframe ng-src="{{item.video_src | trusted }}" frameborder="0"></iframe>
+		</div>
+	</div>
+
+</div>
+
+<div class="controlArea">
+<button type="button" class="btn controlButton buttonBack" ng-click="goBack()"></button>
+<button type="button" class="btn controlButton buttonTop" ng-click="goTop()"></button>
+</div>

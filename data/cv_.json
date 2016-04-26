@@ -1,0 +1,37 @@
+{
+	"items":[
+		{"ch_title":"",
+		 "en_title":"",
+		 "ch_text":"台南人，1989年出⽣。目前為互動工程師，暫時的⼈⽣目標是做新媒體藝術創作。",
+		 "en_text":"Born in Tainan, Taiwan, 1989. Now work as an interaction engineer, and temporarily devoted to new media art."
+		},
+		
+		{"ch_title":"",
+		 "en_title":"Education",
+		 "ch_text":"2013 臺大電機所CS組畢業\n2011 臺⼤電機系畢業，雙主修數學系",
+		 "en_text":"2013 Master of Science in Computer Science Group of Electrical Engineering, NTU\n2011 Bachelor of Science in Engineering in Electrical Engineering and Bachelor of Science in Math, NTU"
+		},
+		{"ch_title":"",
+		 "en_title":"Work Experience",
+		 "ch_text":"2014~2016 互動工程師",
+		 "en_text":"2014~2016 Interaction Engineer"
+		},
+		{"ch_title":"",
+		 "en_title":"Prize",
+		 "ch_text":"2013 第四屆台北數位藝術表演獎首獎 (與王連晟、周莉婷共同創作)",
+		 "en_text":"2013 The 4th Taipei Digital Art Performance Award (with Lien-Cheng Wang, Adlian Chou)"
+		},
+		{"ch_title":"",
+		 "en_title":"Exhibition",
+		 "ch_text":"2016 <抵抗焦慮的方式─ 皮皮大冒險> 聯展@水谷藝術\n2012 <活大沙龍> 聯展@台大藝術季\n2011 <安全出入口> 聯展@城中咖啡店",
+		 "en_text":"2016 \"Resistance of Anxiety- Adventures of Pipi\" Joint Exhibition @Waley Art\n2012 \"NTU Art Festival\" Joint Exhibition @NTU\n2011 \"Security Entrance/Exit\" Joint Exhibition @UrbanCore Cafe"
+		},
+		{"ch_title":"",
+		 "en_title":"Dev Tools",
+		 "ch_text":"always: Processing, hand-drawing\nsometimes: openFrameworks, arduino, html/js/css",
+		 "en_text":""
+		}	
+	]
+
+
+}

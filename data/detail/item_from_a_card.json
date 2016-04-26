@@ -1,0 +1,26 @@
+{
+	"title": "不如，從一張卡片開始",
+	"descript":"",
+	"time":"2012",
+	"sub_contents":[
+	    {"type":"image",
+	     "image_src":"image/detail/from_a_card/img-8.jpg"	     
+	    },
+	    {"type":"image-text",
+	     "image_src":"image/detail/from_a_card/img-6.jpg",
+	     "text":"這是由三位朋友一起發起的活動，在校園和街頭舉行。\n在2012年的最後，希望大家能停下腳步，想想過去一年的，用一張小卡片，寫幾句簡單的話，傳遞祝福給家人或是朋友，或是自己，重新連結關係，也為找到新的一年的節奏。\n卡片是由我們設計，每個人選用不同的媒材，手工印製或是暗房放相。\n\nThis is an activity held by three friends in our school campus and also on the street.\nIn the end of 2012, we want people can stop by, think about the past year, and try to write some simple words on a small card. The blessings can be given to their family, their friends, or even themselves, to reconnect the relationship between people, and find the rhythm of life for the new year.\nThe cards are designed by us, made by hand-printing, or by developing photos in darkroom."
+	     },	    	
+	    {"type":"image-text",
+	     "image_src":"image/detail/from_a_card/img-2.jpg",
+	     "text":"我做的主題是游泳池。我常去游泳，喜歡看着隔壁水道裡，水面下每個人游泳的姿勢技巧不同，但身體漂浮著的樣子總是覺得自由。每個人都有屬於自己，最自由而真實的樣子。\nThe main idea of my card series is about swimming pool. I go swimming quite often, and I like to look at people nearby floating in different ways. Everyone may have his/her own techniques of swimming, but all of them seem to be free and comfortable.\n\n\n手繪圖稿經過電腦處理後，雷射切割出壓克力的模板，在以顏料印製在卡紙上。\nThe hand-drawn picture is processed in computer to use laser cutting to make acrylic template, on which we then use ink to print on paper."
+	    },
+	    {"type":"image-image",
+	     "image_src_1":"image/detail/from_a_card/img-3.jpg",
+	     "image_src_2":"image/detail/from_a_card/img-4.jpg"
+	    },
+	    {
+	      "type":"image",
+	      "image_src":"image/detail/from_a_card/img-1.jpg"
+	    }	  
+	  ]
+ }

@@ -1,0 +1,17 @@
+{
+	"dark":true,
+	"title": "Sounds Wierd",
+	"descript":"Android App",
+	"time":"2012",
+	"sub_contents":[
+	    {"type":"image",
+	     "image_src":"image/detail/sounds_wierd/img-1.png"	     
+	    },	    	  
+	    {"type":"text",
+	     "text":"當對坐的人拿出手機開始沈默地、在另一個世界滑動，我總想也拿出我的。\n我也沈默地點點滑滑，替自己在現實世界裡，製造一點抗議的聲音。\nWhen people sitting in front of me take out their smart phone, quietly sliding their fingers in the other world, I always think of taking out mine. I also quietly slide my fingers, making some noises, protesting in the real world."
+	    },
+	    {"type":"text",
+	     "text":"Android app. 使用Facebook api讀取動態消息，用Puredata轉為聲音輸出，同時也將資料流視覺化輸出。使用者可利用手勢和聲音及影像互動。\nThe mobile application grabs feeds from Facebook account then turn them into sound and visual data streams. Through swipe gesture, users can interact with the sound and visual."
+	    }
+	  ]
+ }

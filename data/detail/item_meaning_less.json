@@ -1,0 +1,26 @@
+{
+	"title": "Meaning_Less",
+	"descript":"互動裝置\n @城中咖啡廳 安全出入口創作聯展",
+	"time":"2011",
+	"sub_contents":[
+	    {
+	      "type":"image",
+	     "image_src":"image/detail/meaning_less/img-3.jpg"
+	    },
+	    {
+	      "type":"image-text",
+	      "image_src":"image/detail/meaning_less/img-2.jpg",
+	      "text":"現實是各種語言組成的框架，\n生活裡依賴著和他人共通意義下的溝通，證明某些存在、歸屬或擁有，\n但又常覺得自己總是陷落在這些意義的框架裡，逃不出去。\n如果是親密而沉默，也許就安全了，\n我們可以不需要意義吧。\n附著耳機聽，安心的聲音\n也許就是沉默。\n\n\nReality is the frames made of different languages.\nIn our lives, we rely on the communication with others, to proof our existence, belongings, or possessing.\nBut I often find myself lost in these frames of meanings.\nIf we can be close while quiet, it will be safe.\nWe may have no meanings.\nListen to the sound of relieve, it’s silence."
+	    },
+	    { 
+	      "type":"image-image",
+	      "image_src_1":"image/detail/meaning_less/img-5.jpg"
+	      
+	    },
+	    { 
+	      "type":"image-image",
+	      "image_src_1":"image/detail/meaning_less/img-1.jpg",
+	      "image_src_2":"image/detail/meaning_less/img-4.jpg"
+	    }
+	  ]
+ }

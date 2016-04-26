@@ -1,0 +1,79 @@
+<html>
+<head>
+    <meta property="og:title" content="reng tsai_"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="http://rengtsaipp.com/image/cv/img-1.jpg"/>
+    <meta property="og:site_name" content="reng tsai_"/>
+    <meta property="og:description" content="website of reng and pp."/>
+    
+    <title>reng tsai_</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="include/jquery/jquery-1.12.1.min.js"></script>
+  
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="include/bootstrap-3.3.6/css/bootstrap.min.css">
+    <script src="include/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+
+    
+
+    <!-- angular -->
+    <script src="include/angular/angular.min.js"></script>
+    <script src="include/angular/angular-animate.min.js"></script>
+
+    <script src="include/angular/angular-ui-router.min.js"></script>
+   
+    <script src="include/angular-scroll/angular-scroll-animate.js"></script>
+    <script src="include/jquery-easing/jquery.easing.1.3.js"></script>
+
+    <!-- adaptive image -->
+    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+
+    <!-- processing -->
+    <script>
+        if(screen && screen.width>800){
+            document.write('<script src="pp_web_play/use_p5/include/p5/p5.js"><\/script><script src="js/PUtil.js"><\/script><script src="js/PAnimal.js"><\/script><script src="js/pp.js"><\/script>');
+        }
+    </script>
+    <!-- custom -->
+    <script src="js/app.js"></script>
+    <script src="js/control.js"></script>
+    <link rel="stylesheet" href="css/app.css">
+        
+   
+
+</head>
+<body ng-app="routerApp">
+
+<div class="container">
+
+    <div class="btn-group-vertical" id="mainMenu" role="group">
+
+      <button type="button" id="menuToggle"
+              data-toggle="collapse" data-target="#menu-collapse" aria-expanded="false">
+
+         <span class = "sr-only">Toggle navigation</span>       
+         <!-- <span class="glyphicon glyphicon-menu-hamburger"></span> -->
+      </button>   
+
+      <div id="menu-collapse" class="menuBlock collapse-non-md">
+        <button type="button" class="sideButton"><a ui-sref="home">PORTFOLIO</a></button>
+        <button type="button" class="sideButton"> <a ui-sref="playground">PLAYGROUND</a></button>
+       <button type="button" class="sideButton"> <a ui-sref="cv">CV</a></button>
+        <button type="button" class="sideButton"><a ui-sref="contact">CONTACT</a></button>
+        </div>
+    </div>
+
+    <div id="pp_canvas" class="hidden-sm hidden-xs" ng-show="$state.current.name!=='playground' && $state.current.name.indexOf('detail')==-1">
+    </div>  
+
+
+    <!-- MAIN CONTENT -->
+    <div ui-view id="mainContent"></div>
+    <div class="footer">&copy; 2016 rengtsaipp.com</div>
+</div>
+
+
+
+</body>

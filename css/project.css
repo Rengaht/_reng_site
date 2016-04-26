@@ -1,0 +1,47 @@
+
+.projectCaption{
+	position: absolute;
+	top:0;
+	left:0;	
+	width:100%;
+	height:100%;
+}
+.projectCaptionText{
+	position: absolute;
+	bottom: 25px;
+
+	text-align: left;
+	font-size: 24px;
+	color:#eee;
+	padding-left: -100%;
+	opacity: 0;	
+
+	text-decoration: line-through;
+}
+.projectCaption:hover .projectCaptionText{
+	opacity: 1;
+	transition: .3s;
+	padding-left: 25px;
+}
+
+
+
+.projectGrid{
+
+}
+
+.projectCell{
+	border:none;
+	padding:0;
+	margin:5px;
+	overflow: hidden;
+	float:left;
+	position: relative;
+
+	
+}
+.projectCaptionWrap{
+	width:100%;
+	height:100%;
+
+}

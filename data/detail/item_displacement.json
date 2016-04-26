@@ -1,0 +1,28 @@
+{	
+	"dark":true,
+	"title": "錯置現象 The Displacement",
+	"descript":"擊樂科技表演結合計畫\n2013 台北數位藝術表演獎首獎\n@松菸多功能展演廳",
+	"time":"2013",
+	"sub_contents":[
+	    {"type":"image",
+	     "image_src":"image/detail/displacement/img-12.jpg"	     
+	    },
+	    {"type":"image-text",
+	     "image_src":"image/detail/displacement/img-3.jpg",
+	     "text":"當樂器散落在整個空間中，表演者在場地中心操控，觀眾在被聲音和燈光包覆的空間中自由游移，體驗不同以忘的陌生感受—樂器空間化，處理音場、空間與燈光之間的關係，再加入電子聲響、電腦作曲、計算、控制音場，與真實樂器連結，創造更多聽覺視覺上的複雜度。\n\nWhen the instruments and installations are placed around the space, and the performers are located at the center, controlling the installations. Audiences are hanging freely in the space surrounding by sound and light, experiencing an unusual and inexperienced perception. The instruments are as the space itself. By computing and controlling the sound 􀏐ield, and the relationship between space and light, joining electrical sounds, computational compositions, connecting with the real instruments, we try to create a variety and complexity in visual and in audio."
+	     },	    	
+	    {"type":"image-image",
+	     "image_src_1":"image/detail/displacement/img-5.jpg",
+	     "image_src_2":"image/detail/displacement/img-6.jpg"
+	    },
+	    {
+	      "type":"image-image",
+	      "image_src_1":"image/detail/displacement/img-4.jpg",
+	      "image_src_2":"image/detail/displacement/img-7.jpg"
+	    },	
+	    {"type":"image-text",
+	     "image_src":"image/detail/displacement/img-11.jpg",
+	     "text":"作曲＆裝置製作／王連晟\n作曲／周莉婷\n裝置製作／蔡佳礽\n擊樂演出／周芸如、薛詠之、廖海婷\n舞台監督／賴亮嘉\n燈光設計／劉彥廷\n平面設計／林瑜婷\n裝置幫手／王世邦\n作曲幫手／謝仲其\n\n\nPhoto Credit: Anpis Wang."
+	    }	    
+	  ]
+ }

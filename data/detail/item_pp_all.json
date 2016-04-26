@@ -1,0 +1,29 @@
+{
+	"title": "皮皮大冒險",
+	"descript":"程式運算影像 互動裝置\nopenFrameworks on raspberry pi\n\n配樂: 蕭戎雯\n\n0215-0303 @水谷藝術 展出",
+	"time":"2015-16",
+	"sub_contents":[
+	    {"type":"text",
+	     "text":"——如果我們都能皮皮的活著。\n\n皮皮為一系列由程式即時運算的影像，從2014年底在上班的縫隙中開始發展，以單一動作循環為單位陸續做了十多組，這次整理為三段。每段看似不斷重複同樣的動作，每一個循環卻都有些許被控制或隨機的不同，片段之間也似乎有故事性的連載意義。\n\n這一系列裡我觀察我平常畫畫的習慣，除了路徑筆畫規則也加入範圍內的隨機變量，嘗試讓程式製造出手繪，或說野生感、有機感，但又帶有邏輯運算的重複、機械性特質。內容是當下生活的零碎感想，希望呈現單調反覆，無聊的就像日常生活，有時暗藏玄機卻微弱不需在意，通常荒謬，又彷彿是必要而無法跳脫的循環。\n\n當程式同時作為謀生和創作工具，我反覆糾結於我們到底需要什麼樣的機器，當工程師們不斷被要求用各種數學邏輯去逼近，某個精確無誤去人性－但也可能被要求符合人性－的目標，這之間困難也矛盾重重。而和我一樣有許多漏洞但又勉強訓練（被訓練）的程式皮皮，彷彿更符合人類和（人類所製造的）機器之間永遠的距離缺口，而這段缺口又能在矛盾質問的人生中找到什麼樣的出口，是我不斷想回答自己的。"
+	    },	   
+	    {
+	    	"type":"video",
+	    	"video_src":"https://www.youtube.com/embed/3Z9ujTNmuaw?rel=0&amp;showinfo=0"
+	    },
+	    {
+	      "type":"image-image",
+	      "image_src_1":"image/detail/pp_all/img-10.jpg",      
+	      "image_src_2":"image/detail/pp_all/img-13.jpg"      
+	    },
+	    {
+	      "type":"image",
+	      "image_src":"image/detail/pp_all/img-4.jpg"      
+	    },	   
+	    {
+	      "type":"image-image",	      
+	      "image_src_2":"image/detail/pp_all/img-12.jpg",
+	      "image_src_1":"image/detail/pp_all/img-5.jpg"
+	    }
+	    
+	  ]
+ }

@@ -1,0 +1,53 @@
+<div class="playContainer clearfix">
+	<div ng-repeat="item in items"
+	     class="playCaption"
+		 ng-style="getPosition(item.size)"
+		 when-visible="animateElementIn"
+		 when-not-visible="animateElementOut"
+		 ng-show="item.group===undefined || show_group[item.group]">
+		<div style="position:relative">
+
+
+			 <a ng-href="{{item.link}}" target="_blank" class="clearfix"> 
+				
+				<img ng-src="{{item.img}}" 
+				     id="pimg_{{item.id}}" 
+				     class="playCaptionImage"
+					 ng-mouseenter="showAnim(item)"
+					 ng-mouseleave="hideAnim(item)"
+					 ng-click="showDetail(item)"
+					 ng-style="(show_group[item.show_group] || item.show_group===undefined && item.link===undefined)?{'cursor':'crosshair'}:{}" />
+				<!-- <span class="loading"><img src="image/loading_bar.gif"/></span> -->
+			
+		
+			<button type="button" 
+			        ng-click="showDetail(item)"
+			        ng-show="item.title!==undefined"
+			        class="playCloseButton">
+			        <div ng-hide="!show_group[item.show_group]">
+			        	<span class="glyphicon glyphicon-folder-open folderIcon"></span>
+			        </div>
+			        <div ng-show="item.show_group!==undefined && !show_group[item.show_group]">
+
+					  	<span class="glyphicon glyphicon-folder-close folderIcon"></span>
+					  	<span class="playTitle">{{item.title}}</span>
+					</div>
+					<div ng-show="item.title!==undefined && item.show_group===undefined">
+
+					  	<span class="glyphicon glyphicon-play folderIcon"></span>
+					  	<span class="playTitle">{{item.title}}</span>
+					</div>
+			</button>
+
+			</a>	 
+		</div>
+	</div>
+</div>
+<!-- <div class="playDetail clearfix" ng-show="show_detail">
+	<button type="button" ng-click="hideDetail()">CLOSE</button>
+</div> -->
+
+
+<!-- ng-style="getPosition(item.size)" -->
+ <!-- ng-style="{'width':(colWidth*item.size[0]-10)+'px'}" -->
+  <!-- ng-click="showDetail(item)" -->

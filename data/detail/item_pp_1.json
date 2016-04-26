@@ -1,0 +1,21 @@
+{
+	"title": "皮皮_1 路始終筆直而我不斷傾斜",
+	"descript":"程式運算影像",
+	"time":"2015-16",
+	"sub_contents":[	
+		{
+	      "type":"image-text",
+	      "image_src":"image/detail/pp_1/anim-1.gif",
+	      "text":"這一段是皮皮的原型－細長多腳的類哺乳類生物，也是我平常最常隨手畫出的形狀，他們用不同的方式向前伸縮奔跑，無法停止。"
+	    },   
+	    {
+	      "type":"image-image",
+	      "image_src_1":"image/detail/pp_1/img-3.png",
+	      "image_src_2":"image/detail/pp_1/anim-3.gif"
+	    },	   
+	    {
+	      "type":"video",
+	      "video_src":"https://www.youtube.com/embed/DORlBuNioi8?rel=0&amp;showinfo=0"
+	    }
+	  ]
+ }

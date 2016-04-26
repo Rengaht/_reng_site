@@ -1,0 +1,16 @@
+{
+	"dark":true,
+	"title": "咻揪來呷咖哩娘",
+	"descript":"互動電音趴踢計畫\n@黑鳥HN",
+	"time":"2015",
+	"sub_contents":[
+	    {"type":"image",
+	     "image_src":"image/detail/curry/img-1.jpg"	     
+	    },	   	   
+	    {
+	    	"type":"text",
+	    	"text":"製作: artgital地下室, Ming Tsai, Reng Tsai, Leo Chen, Alpha Lin, Weishan Wang"	    
+	    }
+
+	  ]
+ }

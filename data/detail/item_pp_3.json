@@ -1,0 +1,19 @@
+{
+	"title": "皮皮_3 把發生盡可能的延後",
+	"descript":"程式運算影像",
+	"time":"2015-16",
+	"sub_contents":[	   
+		{
+			"type":"text",
+			 "text":"最常坐的列車就是回台南的高鐵，還有每半年一年跟男朋友到花蓮發呆的火車。\n在車上看著透天房工廠山洞鐵皮水塔水田－有一個每次每次，想逃的時候，我都努力想起的瞬間。"
+		},
+	    {
+	      "type":"image",
+	      "image_src":"image/detail/pp_3/img-1.jpg"	     
+	    },	   
+	    {
+	      "type":"video",
+	      "video_src":"https://www.youtube.com/embed/8swpiToCNTU?rel=0&amp;showinfo=0"
+	    }
+	  ]
+ }

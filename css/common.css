@@ -1,0 +1,68 @@
+
+.vcenterWrap{
+	display: table;
+}
+body{
+	font-family:rengWebText;
+	color:#555;
+	transition: .5s;
+}
+
+.vcenterCell{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+
+.fullImage{
+	
+	width:100%;
+	height:100%;
+}
+@media(max-width:1200px){
+	.fullImage{			
+		width:auto;
+		height:100%;		
+	}
+}
+.preText{
+	white-space: pre-wrap;
+}
+
+.footer{
+	text-align: center;
+	margin:150px 0px;
+}
+button{
+	border:none;
+	outline: none !important;
+
+}
+
+
+.tagColor{
+	color:#00344C;
+}
+
+.darkText{
+	color:#ccc;
+}
+.darkTagColor{
+	color:#EAB313;
+}
+
+/* for scroll reveal */
+.hideToScroll{
+	opacity: 0;
+	/*margin-top: 50px;*/
+	/*transition: 1s;*/
+}
+.scrollIn{
+	opacity: 1;
+	/*margin-top: 0px;*/
+	transition: .8s ease-in-out;
+}
+
+
+

@@ -1,0 +1,22 @@
+{
+	"title": "成為你的風景 In Your Eyes",
+	"descript":"互動裝置",
+	"time":"2012",
+	"sub_contents":[
+	    {"type":"text",
+	     "text":"--我的模樣有你的張望\n我的朋友都很愛撐傘，他們在每場雨開場二十滴雨以內\n就會撐開傘—而那瞬間我落在\n他們的安全領域之外，假裝像個防水的超人\n\nMy friends all like to use umbrellas. They always open their umbrellas in the first 20 drops of the rain. And at the time, I’m outside of their safe-zone, pretending myself as a water-proof superman."
+	    },
+	    {
+	      "type":"video",
+	      "video_src":"https://player.vimeo.com/video/48813975"
+	    },  	
+	    {"type":"text",
+	     "text":"電子裝置。利用馬達控制雨傘開闔，握把上的開關可以驅動不同動態。雨傘裝設在各種人平常使用的角度和高度。\nElectronic Installation. Use motor to control the opening/closing of umbrellas. The switch on the handles can trigger different motions. The umbrellas are set in the angles and heights that people normally take."
+	    },
+	    {
+	      "type":"image-image",
+	      "image_src_1":"image/detail/in_your_eyes/img-1.jpg",
+	      "image_src_2":"image/detail/in_your_eyes/img-3.jpg"
+	    }	  
+	  ]
+ }

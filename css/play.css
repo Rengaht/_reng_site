@@ -1,0 +1,123 @@
+.playCaption{
+	overflow: hidden;
+	margin:5px;
+	float:left;
+	transition: .2s;
+	opacity: 1;
+}
+
+.playCaption.ng-hide{
+	opacity: 0;	
+	/*animation:shakeinout .1s infinite ease-in-out;*/
+}
+.playCaption.ng-hide-add,
+.playCaption.ng-hide-remove {
+  /* this is required as of 1.3x to properly
+     apply all styling in a show/hide animation */
+  transition: .2s ease-in-out all;
+}
+.playCaption.ng-hide-add-active,
+.playCaption.ng-hide-remove-active {
+  /* the transition is defined in the active class */
+  transition: .2s ease-in-out all;
+  /*animation:shakeinout .05s infinite ease-in-out;*/
+}
+
+
+@keyframes shakeinout {
+    0% { transform:translate(0,0);}
+    25% { transform:translate(0,5%);}
+    50% { transform:translate(0,0%);}
+    75% { transform:translate(0,-5%);}
+    100% { transform:translate(0,0);}    
+}
+
+.playContainer{
+	/*position: absolute;*/
+	transition: .2s;
+}
+
+.playDetail{
+	/*display: none;*/
+	position:fixed;
+	bottom:20%;
+	right:0%;
+	width:50%;
+	height:60%;
+	transition: .2s;
+	background-color: white;
+}
+
+.playCaptionImage{
+	width:100%;
+	-webkit-filter: grayscale(100%) blur(1px);
+	filter: grayscale(100%) blur(1px);
+	/*margin-right:20%;*/
+	transition:.5s ease-in-out;
+	cursor:pointer;
+}
+.playCaptionImage:hover{
+	/*width:150%;
+	margin-right: 0px;*/
+	transition: .5s ease-in-out;
+	-webkit-filter: none;
+	filter: none;
+	/*margin-right:20%;*/
+}
+
+
+
+
+
+@keyframes shakeupdown{
+  /*  0% { transform:translate(0,0);}
+    50% { transform:translate(50%,0);}
+    100% { transform:translate(0,0);}    */
+    0% { opacity:0;}
+    50% { opacity: 1;}
+    100% { opacity: 0;}    
+}
+
+
+.playCloseButton{
+	position: absolute;
+	top:20px;
+	left:20px;
+	opacity: 1;
+	
+	font-family: rengWebTitle;
+	z-index: 2;
+
+	background-color:transparent;	
+	color:white;
+	
+	font-size: 2em;
+}
+.playCloseButton:hover{
+	color:#00344C;	
+}
+
+.folderIcon{
+	position: absolute;
+	left: 0;
+	top:0;
+	text-align:left;
+	/*display: inline;*/
+	background-color:transparent;	
+}
+.playTitle{
+	position: absolute;
+	left:1.2em;
+	top:-.1em;
+
+	/*display: inline;*/
+	text-decoration: line-through;
+	/*margin-left: 26px;*/
+}
+
+.spinner-hide .loading{
+	visibility: visible;
+}
+.spinner-show .loading{
+	visibility: hidden;
+}

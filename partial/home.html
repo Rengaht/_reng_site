@@ -1,0 +1,23 @@
+<div class="container-fluid">
+	<!-- <img src="image/head.png" class="fullImage"> -->
+
+	<div class="projectGrid">
+		<div ng-repeat="project in project_list"
+			 class="projectCell hideToScroll"
+			 ng-style="getPosition(project.size)"
+			 when-visible="animateElementIn"
+			 when-not-visible="animateElementOut">
+			 
+			 <img ng-src={{project.img}} class="fullImage"/>
+			 <a ui-sref="detail({pid:project.id})">
+			 	<div class="projectCaption">
+			 		<div class="projectCaptionWrap">				 
+				 		<div class="projectCaptionText">{{project.name}}</div>
+				 	</div>
+			 	</div>
+			 </a>
+
+		</div>
+	</div>
+</div>
+

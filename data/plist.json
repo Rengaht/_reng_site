@@ -1,0 +1,64 @@
+{
+	"items":[{"name":"皮皮大冒險",
+			  "id":"pp_all",
+			  "img":"image/thumb/pp_all.jpg",
+			  "size":[3,1]},
+
+	     	{"name":"pipi_1",
+			  "id":"pp_1",
+			  "img":"image/thumb/pp_1.jpg",
+			  "size":[1,1]},
+
+			{"name":"pipi_2",
+			  "id":"pp_2",
+			  "img":"image/thumb/pp_2.png",
+			  "size":[1,1]},
+
+			{"name":"pipi_3",
+			  "id":"pp_3",
+			  "img":"image/thumb/pp_3.png",
+			  "size":[1,1]},
+
+			{"name":"咻揪來呷咖哩娘",
+			  "id":"curry",
+			  "img":"image/thumb/eatcurry.jpg",
+			  "size":[1,1]},
+			
+			{"name":"錯置現象",
+			  "id":"displacement",
+			  "img":"image/thumb/displacement.jpg",
+			  "size":[2,2]},
+
+		
+			{"name":"成為你的風景",
+			  "id":"in_your_eyes",
+			  "img":"image/thumb/inyoureyes.jpg",
+			  "size":[1,2]},
+			
+			{"name":"不如，從一張卡片開始",
+			  "id":"from_a_card",
+			  "img":"image/thumb/from_a_card.jpg",
+			  "size":[1,1]},
+
+			{"name":"Sounds Wierd",
+			  "id":"sounds_wierd",
+			  "img":"image/thumb/sounds_wierd.png",
+			  "size":[1,1]},
+			{"name":"死亡的過程",
+			  "id":"process_of_death",
+			  "img":"image/thumb/xor.jpg",
+			  "size":[2,1]},
+
+			{"name":"meaning-less",
+			  "id":"meaning_less",
+			  "img":"image/thumb/meaning_less.jpg",
+			  "size":[1,1]},
+			
+			{"name":"游泳池",
+			  "id":"swim",
+			  "img":"image/thumb/swim.jpg",
+			  "size":[1,1]}
+			
+			
+			  ]	
+ }

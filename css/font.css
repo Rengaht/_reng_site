@@ -1,0 +1,20 @@
+
+@font-face{
+	font-family:rengWebTitle;	
+	src: url(../font/NotoSansHant-DemiLight.otf);
+}
+@font-face{
+	font-family:rengWebTitle;
+	unicode-range:U+000-5FF, U+1e00-1fff, U+2000-2300;
+	src: url(../font/EnvyCodeR-Bold.ttf);
+}
+
+@font-face{
+	font-family:rengWebText;	
+	src: url(../font/NotoSansHant-DemiLight.otf);
+}
+@font-face{
+	font-family:rengWebText;
+	unicode-range:U+000-5FF, U+1e00-1fff, U+2000-2300;
+	src: url(../font/EnvyCodeR.ttf);
+}

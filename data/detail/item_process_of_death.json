@@ -1,0 +1,12 @@
+{
+	"dark":true,
+	"title": "死亡的過程",
+	"descript":"互動程式設計\n@2011 台北數位藝術表演獎首獎演出",
+	"time":"2011",
+	"sub_contents":[	   
+	    {
+	      "type":"video",
+	      "video_src":"https://www.youtube.com/embed/0FaFURX4bME?rel=0&amp;controls=0&amp;showinfo=0"
+	    }	  
+	  ]
+ }

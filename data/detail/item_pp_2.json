@@ -1,0 +1,24 @@
+{
+	"title": "皮皮_2 他就是受不了所有的暫時性",
+	"descript":"程式運算影像",
+	"time":"2015-16",
+	"sub_contents":[	   
+	    {
+	      "type":"image-text",
+	      "image_src":"image/detail/pp_2/img-2.png",
+	      "text":"一個在生活裡最常寄託幻想的－能摧毀進而拯救我們的－外星故事循環。"
+	    },	   
+	    {
+	      "type":"image-image",
+	      "image_src_1":"image/detail/pp_2/anim-2.gif"
+	    },
+	    {
+	      "type":"image-image",
+	      "image_src_1":"image/detail/pp_2/anim-3.gif"
+	    },
+	    {
+	      "type":"video",
+	      "video_src":"https://www.youtube.com/embed/ZKVneGqVH_s?rel=0&amp;showinfo=0"
+	    }
+	  ]
+ }
